@@ -1,0 +1,7 @@
+a=int (input("Enter any number"))
+Sum =0
+while (a!=0):
+rem = a%10
+Sum= sum+rem
+a=a//10
+Print ("sum:", sum)
