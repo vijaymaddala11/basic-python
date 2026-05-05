@@ -1,0 +1,8 @@
+Gcd
+a=int(input(" (nter numl:))
+b= int(input(" Enfer numa :))
+while ( b!=a) :
+rem = a% * b
+a = b
+b = rem
+print("GCD:", a)
