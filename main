@@ -1,0 +1,29 @@
+import rndom
+p1=input("Enter player1")
+p2=input("Enter player2")
+s1=10
+s2=10
+d1=random.randint(1,10)
+d2=random.randint(1,10)
+print("------PLAYER 1 TURN----")
+While(true):
+g1=int(input("Enter your guess"))
+s1=s1-1
+if g1==d1
+break
+print("------PLAYER 2 TURN----")
+While(true):
+g1=int(input("Enter your guess"))
+s2=s2-1
+if g2==d2
+break
+print("summary")
+print("{}:{}".formate(p1.s1))
+print("{}:{}".formate(p2.s2))
+print("result")
+if s1>s2:
+print("winner is ",p1)
+elif s2>s1:
+print("winner is ",p2)
+else:
+print("tie")
