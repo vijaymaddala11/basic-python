@@ -1,0 +1,34 @@
+class ace:
+    clg="ACE COLLEGE"
+    def set_dime(self,a,b,c,d):
+        self.total=a+b+c
+        self.name=d
+    def display(self):
+        print("marks :",self.total)
+        print("name : ",self.name)
+        print("COLLEGE: ",ace.clg)
+class vbit:
+    clg="VBIT COLLEGE"
+    def set_dim(self,a,b,c,d):
+        self.total=a+b+c
+        self.name=d
+    def displays(self):
+        print("marks :",self.total)
+        print("name : ",self.name)
+        print("COLLEGE: ",vbit.clg)
+        
+a=ace()
+a2=ace()
+b=vbit()
+b2=vbit()
+a.set_dime(50,60,70,"vijay")
+a2.set_dime(55,65,75,"sai")
+b.set_dim(46,56,66,"raju")
+b2.set_dim(33,34,54,"shiva")
+a.display()
+a2.display()
+b.displays()
+b2.displays()
+
+
+
