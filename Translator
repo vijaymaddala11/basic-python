@@ -1,0 +1,6 @@
+from googletrans import Translator
+t=Translator
+a=input(" enter text u want to convert : ")
+b=input(" enter target lan : ")
+res=t.Translator(a,dest=b)
+print(res.text)
