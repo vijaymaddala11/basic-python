@@ -3,5 +3,5 @@ title=["Name","age","Department"]
 data=[["raj",21,"cse"],
       ["ravi",45,"mech"],
       ["vijay",23,"civil"]]
-res=tabulate(data,headers=title,tabulate="pretty")
+res=tabulate(data,headers=title,tablefmt="pretty")
 print(res)
