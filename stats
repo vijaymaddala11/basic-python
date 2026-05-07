@@ -1,0 +1,4 @@
+from scipy import stats
+A=[10,39,55,64,8,9,89]
+res=stats.percentileofscore(A,12)
+print(res)
